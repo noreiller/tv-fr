@@ -1,0 +1,50 @@
+[
+	{
+		"title": "TF1"
+		, "logo": "http://www.tf1.fr/favicon.ico"
+		, "live": "http://www.tf1.fr/live/"
+		, "replay": "http://videos.tf1.fr/"
+	}
+	, {
+		"title": "France 2"
+		, "logo": "http://www.france2.fr/favicon.ico"
+		, "live": "http://pluzz.francetv.fr/france2/"
+		, "replay": "http://pluzz.francetv.fr/lesplusrecents/france2/"
+	}
+	, {
+		"title": "France 3"
+		, "live": "http://pluzz.francetv.fr/france3/"
+		, "logo": "http://www.france3.fr/favicon.ico"
+		, "replay": "http://pluzz.francetv.fr/lesplusrecents/france3/"
+	}
+	, {
+		"title": "France 5"
+		, "logo": "http://www.france5.fr/favicon.ico"
+		, "live": "http://pluzz.francetv.fr/france5/"
+		, "replay": "http://pluzz.francetv.fr/lesplusrecents/france5/"
+	}
+	, {
+		"title": "M6"
+		, "logo": "http://www.m6.fr/favicon.ico"
+		, "live": "http://www.m6replay.fr/#/direct"
+		, "replay": "http://www.m6replay.fr/#/tous-les-programmes"
+	}
+	, {
+		"title": "TMC"
+		, "logo": "http://www.tmc.tv/favicon.ico"
+		, "live": "http://www.tmc.tv/live/"
+		, "replay": "http://videos.tmc.tv/"
+	}
+	, {
+		"title": "NT1"
+		, "logo": "http://www.nt1.tv/favicon.ico"
+		, "live": "http://www.nt1.tv/live/"
+		, "replay": "http://videos.nt1.tv/"
+	}
+	, {
+		"title": "France 4"
+		, "logo": "http://www.france4.fr/favicon.ico"
+		, "live": "http://pluzz.francetv.fr/france4/"
+		, "replay": "http://pluzz.francetv.fr/lesplusrecents/france4/"
+	}
+]
