@@ -100,6 +100,10 @@
 		}
 		link.classList.add('active');
 
+		if (typeof _gaq !== "undefined" && _gaq !== null) {
+			_gaq.push(['_trackPageview', link.href]);
+		}
+
 		event.preventDefault();
 	};
 
