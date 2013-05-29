@@ -55,19 +55,28 @@
 		remote.innerHTML = '';
 
 		for (var k in self.channels) {
-			var channel = self.channels[k];
+			var
+				channel = self.channels[k]
+				, fragment = document.createDocumentFragment()
+				, item
+				, img
+			;
 
-			var fragment = document.createDocumentFragment();
+			if (!channel[mode]) {
+				item = fragment.appendChild(document.createElement('span'));
+			}
+			else {
+				item = fragment.appendChild(document.createElement('a'));
+				item.href = channel[mode];
+				item.title = channel.title;
+				item.addEventListener('click', self.eventChannelClick.bind(self));
+			}
 
-			var link = fragment.appendChild(document.createElement('a'));
-			link.href = channel[mode];
-
-			var img = link.appendChild(document.createElement('img'));
+			img = item.appendChild(document.createElement('img'));
 			img.src = channel.logo;
+			img.alt = channel.title;
 
 			remote.appendChild(fragment);
-
-			link.addEventListener('click', self.eventChannelClick.bind(self));
 		}
 	};
 
